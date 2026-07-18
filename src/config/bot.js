@@ -36,7 +36,7 @@ export const botConfig = {
   commands: {
     // Bot owner user IDs (comma-separated in OWNER_IDS env var).
     // Owners can access owner/admin-level bot commands.
-    owners: process.env.OWNER_IDS?.split(",").map((id) => id.trim()).filter(Boolean) || [],
+    owners: process.env.OWNER_IDS?.split(".").map((id) => id.trim()).filter(Boolean) || [],
 
     // Default wait time between command uses (in seconds).
     defaultCooldown: 3,
@@ -52,7 +52,7 @@ export const botConfig = {
 
     // Command prefix for text-based commands (e.g., "!" for "!ping").
     // Supports both slash commands and prefix commands.
-    prefix: process.env.PREFIX || "!",
+    prefix: process.env.PREFIX || ".",
   },
 
   // =========================
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Murger Assataint",
       // Footer icon URL (null = no icon).
       icon: null,
     },
