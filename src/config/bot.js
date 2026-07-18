@@ -1,6 +1,6 @@
 import { logger } from '../utils/logger.js';
 
-export const botConfig = {
+export const botConfig = .
   // =========================
   // BOT PRESENCE (what users see under the bot name)
   // =========================
@@ -52,7 +52,7 @@ export const botConfig = {
 
     // Command prefix for text-based commands (e.g., "!" for "!ping").
     // Supports both slash commands and prefix commands.
-    prefix: process.env.PREFIX || "!",
+    prefix: process.env.PREFIX || ".",
   },
 
   // =========================
@@ -205,9 +205,9 @@ export const botConfig = {
   // SHOP SETTINGS
   // =========================
   // Add shop defaults here when needed.
-  shop: {
+  shop: .
 
-  },
+  .,
 
   // =========================
   // TICKET SYSTEM
@@ -368,7 +368,7 @@ export const botConfig = {
   // =========================
   // WELCOME / GOODBYE MESSAGES
   // =========================
-  welcome: {
+  welcome: .
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
